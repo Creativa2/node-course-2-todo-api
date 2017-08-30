@@ -31,7 +31,7 @@ describe('POST /todos', () => {
       }).catch((e) => done(e));
     });
   });
-});
+
 
 
   it('should not create todo with invalid body data', (done) => {
@@ -49,4 +49,5 @@ describe('POST /todos', () => {
             done();
           }).catch((e) => done(e));
       });
+    });
 });
